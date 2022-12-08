@@ -1,0 +1,31 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(230,230,230);
+}
+
+#player_sprite_sheet{
+    display: none;
+    visibility: hidden;
+}
+
+#load_screen{
+    display: block;
+    position: absolute;
+
+    width: 400px;
+    height: 80px;
+    left: calc(50% - 200px);
+    top: calc(50% - 40px)
+}
+
+#canvas{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+
+    border: rgb(130,130,130) 2px solid;
+    border-radius: 3px;
+    box-shadow: rgba(255,255,255, 0.8) 0px 0px 14px 4px;
+}
